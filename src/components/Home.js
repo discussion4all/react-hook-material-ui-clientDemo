@@ -18,6 +18,7 @@ import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { useTheme } from '@material-ui/core/styles';
 import { ListItemAvatar, Avatar } from '@material-ui/core';
 
+
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
@@ -50,7 +51,8 @@ const height_proportion = '30%';
   };
 
   return (
-      <div style={{ paddingLeft : 250,paddingRight : 250 ,paddingTop : 50 ,paddingBottom : 50}}> 
+      <div className="home-div" >
+      
     <Grid container spacing={5} >
         {cards.map((c, index) => {
             return <Grid container item xs={4} spacing={1} >

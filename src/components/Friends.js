@@ -50,7 +50,7 @@ const Friends = ({ cards }) => {
   const id = open ? 'simple-menu' : undefined;
 
   return (
-    <div style={{paddingLeft : 300,paddingRight : 250 ,paddingTop : 50 ,paddingBottom : 50}}>  
+    <div className="friend-div">  
     <List className={classes.root}>
     {cards.map((c, index) => {
         return <div> 

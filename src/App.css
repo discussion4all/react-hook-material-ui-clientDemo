@@ -1,0 +1,146 @@
+
+.home-div{
+    padding :50px 100px 100px;  
+}
+
+.friend-div {
+    padding: 50px 100px 100px;
+}
+.friend-div .MuiList-root{
+    margin: 0 auto !important;
+}
+.makeStyles-root-6{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.home-div .makeStyles-root-4 {
+    max-width: 100% !important;
+}
+.home-div .MuiGrid-spacing-xs-5 {
+    width: 100% !important;
+    margin: 0 !important;
+}
+.App {
+    position: relative;
+}
+/* media query */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    .home-div {
+        padding: 20px 20px 100px!important;
+    }
+    .home-div .MuiTypography-root {
+        font-size: 18px !important;
+    }
+    .home-div .MuiGrid-spacing-xs-5 {
+        width: 100% !important;
+        margin: 0px !important;
+    }
+    .friend-div{
+        padding: 20px 20px 100px;
+    }
+    .friend-div .makeStyles-root-4{
+        max-width: 100% !important;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .home-div {
+        padding: 20px 20px 100px!important;
+    }
+    .home-div .MuiTypography-root {
+        font-size: 14px !important;
+    }
+    .home-div .MuiGrid-spacing-xs-5 {
+        width: 100% !important;
+        margin: 0px !important;
+    }
+    .friend-div{
+        padding: 20px 20px 100px;
+    }
+    .friend-div .makeStyles-root-4{
+        max-width: 100% !important;
+    }
+    .friend-div .MuiButtonBase-root {
+        width: 100% !important;
+    }
+  }
+  
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .home-div {
+        padding: 20px 20px 100px!important;
+    }
+    .home-div .MuiTypography-root {
+        font-size: 14px !important;
+    }
+    .home-div .MuiGrid-spacing-xs-5 {
+        width: 100% !important;
+        margin: 0px !important;
+    }
+    .friend-div{
+        padding: 20px 20px 100px;
+    }
+    .friend-div .makeStyles-root-4{
+        max-width: 100% !important;
+    }
+    .friend-div .MuiButtonBase-root {
+        width: 100% !important;
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .home-div {
+        padding: 20px 0px 100px!important;
+    }
+    .home-div .MuiTypography-root {
+        font-size: 14px !important;
+    }
+    .home-div .MuiGrid-spacing-xs-5 {
+        width: 100% !important;
+        margin: 0px !important;
+    }
+    .home-div .MuiGrid-container{
+        display: block !important;
+        max-width: 100% !important;
+    }
+    .friend-div{
+        padding: 20px 20px 100px 0px;
+    }
+    .friend-div .makeStyles-root-4{
+        max-width: 100% !important;
+    }
+    .friend-div .MuiButtonBase-root {
+        width: 100% !important;
+    }
+  }
+  
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .home-div {
+        padding: 20px 0px 100px!important;
+    }
+    .home-div .MuiTypography-root {
+        font-size: 14px !important;
+    }
+    .home-div .MuiGrid-container{
+        display: block !important;
+        max-width: 100% !important;
+    }
+    .home-div .MuiGrid-spacing-xs-5 {
+        width: 100% !important;
+        margin: 0px !important;
+    }
+    .friend-div{
+        padding:20px 20px 100px 0px;
+    }
+    .friend-div .makeStyles-root-4{
+        max-width: 100% !important;
+    }
+    .friend-div .MuiButtonBase-root {
+        width: 100% !important;
+    }
+  }
